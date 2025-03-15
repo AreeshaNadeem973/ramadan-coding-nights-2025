@@ -1,0 +1,6 @@
+cd todo-cli
+ .venv\Scripts\activate // space dena hai starting mai
+ uv run python todo.py add "buy grocery for sehri and iftari"
+  uv run python todo.py complete 1 // space
+   uv run python todo.py remove  1  // space
+uv run python todo.py list    // no space
